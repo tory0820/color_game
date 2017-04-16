@@ -1,6 +1,7 @@
 var num=6;
 var color=genCol(num);
 var head=document.getElementById("tit");
+var note=document.getElementById("note");
 var sqs=document.getElementsByClassName("square");
 var answer=document.getElementById("col");
 var heading=document.getElementById("tit");
@@ -39,6 +40,7 @@ function newclick(){
     selected=pickedCol();
     answer.innerHTML=selected;
     head.style.background="#3498db";
+    note.style.background="#3498db";
     newGame.innerHTML="New Game";
     for(var i=0;i<sqs.length;i++){
         sqs[i].style.background=color[i];
@@ -65,6 +67,7 @@ function changeCol(color){
     for(var i=0;i<sqs.length;i++){
         sqs[i].style.background=color;
         heading.style.background=color;
+        note.style.background=color;
     }
 
 }

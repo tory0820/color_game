@@ -16,7 +16,7 @@ body{
 #con{
     margin: 20px auto;
     width:600px;
-    
+
 }
 #result{
     color: black;
@@ -37,7 +37,16 @@ h1{
     text-transform: uppercase;
     transition: all 1s;
 }
-
+h3{
+    text-align: center;
+    color: white;
+    background-color:#3498db;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all 1s;
+}
 .select{
     background-color:#3498db;
     color: white;
